@@ -1,3 +1,18 @@
 {
-  "bing_key": "Awghgw5D5D43z+LMteMThXRtrH7iq08g4UPMao/jD28"
+  "bing_key": "Awghgw5D5D43z+LMteMThXRtrH7iq08g4UPMao/jD28",
+  "instagram": {
+    "client_id": "bd5dddc611774670aea86690c420ee89",
+    "client_secret": "83102b419b7c4087a6227a356f85ae4d"
+  },
+  "twitter": {
+    "api_key": "TmPJxuAYuaEEzkGA17FgUreoN",
+    "api_secret": "BnjCUff81psyoWThEjOMaJ9X4fKhqHTDMWHPFYni1VQFfdW68O",
+    "access_token": "16079064-DVIyPZczpEfztfCUzzn5T8bFMZk8EKSeMGxmB32ly",
+    "access_secret": "E2T4l80LpZw60MjN76UOd4c6Bh8x8NizfOnii2FdyHDlL"
+  },
+  "soundcloud": {
+    "client_id": "fb73dab39db4b882d12dc27eeffc8ade",
+    "client_secret": "59b9fd00fa6178ccda1080cd617ace34"
+  },
+  "db_connection_string": "mongodb://52.22.32.207/celebs"
 }

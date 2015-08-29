@@ -5,5 +5,9 @@ var Promise = require('bluebird'),
 Promise.promisifyAll(Bing);
 
 module.exports.searchBingNews = function(search_term) {
-
+  return Bing.newsAsync(search_term,
+    {
+      top: 10,
+      newscategory: "rt_Entertainment"
+    });
 };
