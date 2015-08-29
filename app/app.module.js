@@ -1,26 +1,33 @@
 var hack5 = angular.module('Hack5App', []);
 
-hack5.controller('Hack5Controller', ['$scope', function($scope) {
+hack5.controller('Hack5Controller', [
+    '$scope', '$document',
+    function($scope, $document) {
+    	
 
-    $scope.cards = ['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven', 'twelve'];
+        $scope.cards = ['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven', 'twelve'];
 
-    $(".form-control").dropdown({
-        "autoinit": ".select"
-    });
+        $(".form-control").dropdown({
+            "autoinit": ".select"
+        });
 
-    
-    $scope.toggleHides = document.getElementsByClassName('toggle');
+        
+        
+
+        
+        
 
 
-    for (i = 0; i < $scope.toggleHides.length; i++) {
-        $scope.toggleHides[i].addEventListener('click', shoutit, false);
+        var insta = angular.element($('#insta'));
+        var twit = angular.element($('#twit'));
+        var chrome = angular.element($('#chrome'));
+        var face = angular.element($('#face'));
+
+        insta.css('color', 'green');
+
+
+
+
+
     }
-
-
-    $scope.shoutit = function() {
-    	console.log('yes');
-    }
-
-
-
-}]);
+]);

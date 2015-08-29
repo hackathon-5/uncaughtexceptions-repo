@@ -3,8 +3,9 @@ body {
 }
 
 .fa {
-	color: white;
+	color: rgb(120, 191, 82);
 	margin-right: 10px;
+	text-shadow: 1px 1px 0px #222;
 }
 .navbar-header h2 {
 	margin-top: 0px;
@@ -30,12 +31,14 @@ body {
 }
 .social-contain {
 	display: inline-block;
-	width: 400px;
+	width: 200px;
 	padding-top: 11px;
 }
 .social-contain .togglebutton {
 	display: inline;
 	margin-right: 10px;
+	 padding-left: 25px;
+  	padding-top: 25px;
 }
 .togglebutton-material-blue-grey label input[type=checkbox]:checked + .toggle:after {
 	background-color: rgb(58, 131, 157);
