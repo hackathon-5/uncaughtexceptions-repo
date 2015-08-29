@@ -2,13 +2,17 @@
 <html>
 
 <head>
-
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
     <!-- CSS -->
     <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap-theme.css" />
     <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.css" />
-    <link rel="stylesheet" href="/bootstrap-material-design/dist/css/material-fullpalette.css"/>
-    <link rel="stylesheet" href="/bootstrap-material-design/dist/css/material.css"/>
+    <link rel="stylesheet" href="/bootstrap-material-design/dist/css/material-fullpalette.css" />
+    <link rel="stylesheet" href="/bootstrap-material-design/dist/css/material.css" />
+    <link rel="stylesheet" href="/bootstrap-material-design/dist/css/ripples.css" />
+    <link rel="stylesheet" href="/bootstrap-material-design/dist/css/jquery.dropdown.css" />
+    <link rel="stylesheet" href="/css/hack5.css" />
+    <link rel="stylesheet" href="/bootstrap-material-design/dist/css/flipper.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <!-- SCRIPTS -->
     <script src="/jquery/dist/jquery.min.js"></script>
     <script src="/bootstrap/dist/js/bootstrap.min.js"></script>
@@ -16,11 +20,22 @@
     <script src="/angular-aria/angular-aria.js"></script>
     <script src="/angular-animate/angular-animate.js"></script>
     <script src="/angular-material/angular-material.js"></script>
-    <!-- FONTS -->
+    <script src="/bootstrap-material-design/dist/js/material.js"></script>
+    <script src="/bootstrap-material-design/dist/js/ripples.js"></script>
+    <script src="/bootstrap-material-design/dist/js/jquery.dropdown.js"></script>
+    <script src="/bootstrap-material-design/dist/js/togglebuttonHide.js"></script>
+    
+    <script src="/app.module.js"></script>
 
+    <!-- FONTS -->
+    <script src="//use.typekit.net/rxe6fpu.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
 </head>
 
-<body>
+<body ng-app="Hack5App" ng-controller='Hack5Controller'>
+
+<section id="navbar-wrap" ng-include src="'/components/navbar.html'"></section>
+<section id="cards-wrap" ng-include src="'/components/cards.html'"></section>
 </body>
 
 </html>
