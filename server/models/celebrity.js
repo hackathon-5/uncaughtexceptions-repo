@@ -6,7 +6,8 @@ var CelebritySchema = new Schema({
 	twitter_handle: String,
 	facebook: String,
 	bing_news: String,
-	instagram: String
+	instagram: String,
+  soundcloud: String
 });
 
 module.exports = mongoose.model('Celebrity', CelebritySchema);
