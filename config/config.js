@@ -11,4 +11,6 @@ module.exports = function(app) {
   app.set('view engine', 'ejs');
   app.use(express.static(path.join(__dirname, '../bower_components')));
   app.use(express.static(path.join(__dirname, '../public')));
+  app.use(express.static(path.join(__dirname, '../assets')));
+  app.use(express.static(path.join(__dirname, '../app')));
 };

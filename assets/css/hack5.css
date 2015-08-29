@@ -1,0 +1,46 @@
+body {
+	background-color: rgb(47, 70, 84);
+}
+
+.fa {
+	color: white;
+	margin-right: 10px;
+}
+.navbar-header h2 {
+	margin-top: 0px;
+	color: rgb(58, 131, 157);
+	font-size: 45px;
+	text-shadow: 1px 1px 1px #222;
+}
+.form-control {
+   color: white;
+}
+.togglebutton label input[type=checkbox]:checked + .toggle, .togglebutton-default label input[type=checkbox]:checked + .toggle {
+	vertical-align: sub;
+	
+}
+
+.togglebutton label .toggle, .togglebutton label input[type=checkbox][disabled] + .toggle {
+	vertical-align: sub;
+}
+.celeb-select {
+	max-width: 200px;
+	display: inline-block;
+	vertical-align: super;
+}
+.social-contain {
+	display: inline-block;
+	width: 400px;
+	padding-top: 11px;
+}
+.social-contain .togglebutton {
+	display: inline;
+	margin-right: 10px;
+}
+.togglebutton-material-blue-grey label input[type=checkbox]:checked + .toggle:after {
+	background-color: rgb(58, 131, 157);
+}
+select.form-control {
+	font-size: 16px;
+}
+
