@@ -16,6 +16,7 @@
     "body-parser": "^1.13.3",
     "config": "^1.15.0",
     "bluebird": "^2.9.34",
+    "ejs": "*",
     "express": "^4.13.3",
     "lodash": "^3.10.1",
 	  "moment": "^2.10.6",
