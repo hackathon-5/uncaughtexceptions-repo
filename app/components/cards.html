@@ -1,10 +1,11 @@
 <div class="col-xs-12 col-md-4 full-card" ng-repeat="card in cards">
     <div class="flip-card active-card">
-        <div class="card" style="background-color: rgb(255, 87, 34);color: white;">
+        <iframe ng-src="{{trustSrc(card.url)}}" style="max-width: 100%;"width="612" height="710" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+        <!-- <div class="card" style="background-color: rgb(255, 87, 34);color: white;">
             <h6>{{$index}}</h6>
-        </div>
+        </div> -->
         <div class="well">
             <h1>board {{$index}}</h1>
         </div>
     </div>
-</div>
+</div>{{ card.url }}

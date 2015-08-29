@@ -47,3 +47,6 @@ select.form-control {
 	font-size: 16px;
 }
 
+.well {
+	display: none;
+}
