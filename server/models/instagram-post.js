@@ -3,9 +3,10 @@ var mongoose = require('mongoose'),
 
 var InstagramPostSchema = new Schema({
 	created_time: Date,
-	post_id: String,  
+	post_id: String,
   type: String,
-  url: String
+  url: String,
+  parent_id: String
 });
 
 module.exports = mongoose.model('Instagram', InstagramPostSchema);

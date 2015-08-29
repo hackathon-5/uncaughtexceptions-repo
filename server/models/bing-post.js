@@ -7,7 +7,8 @@ var BingPostSchema = new Schema({
 	date_posted: Date,
 	bing_id: String,
 	source: String,
-  url: string
+  url: String,
+  parent_id: String
 });
 
 module.exports = mongoose.model('Bing', BingPostSchema);

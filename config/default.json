@@ -5,10 +5,10 @@
     "client_secret": "83102b419b7c4087a6227a356f85ae4d"
   },
   "twitter": {
-    "api_key": "TmPJxuAYuaEEzkGA17FgUreoN",
-    "api_secret": "BnjCUff81psyoWThEjOMaJ9X4fKhqHTDMWHPFYni1VQFfdW68O",
-    "access_token": "16079064-DVIyPZczpEfztfCUzzn5T8bFMZk8EKSeMGxmB32ly",
-    "access_secret": "E2T4l80LpZw60MjN76UOd4c6Bh8x8NizfOnii2FdyHDlL"
+    "api_key": "07IiAWIXhys8xQ4iRJKx2Kb9x",
+    "api_secret": "sisQUzD3wT9Z0oMK3Ggdqym2Fswu0KDKGYgw5eO1DR0KcqrqOy",
+    "access_token": "2407777722-tGTwYsi3ExqwGnDa9OUCpYhlvaOKAlMJtDm9dWJ",
+    "access_secret": "EWGdsPg9hmiBNkkSsEO1obNmXQLrlzq4dojDo9MJ99W8b"
   },
   "soundcloud": {
     "client_id": "fb73dab39db4b882d12dc27eeffc8ade",
